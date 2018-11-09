@@ -2,7 +2,7 @@
   "name": "jiratempo",
   "version": "1.0.0",
   "description": "Extension for jira node.js module to include the tempo-timesheets add-on",
-  "main": "jiratempo.js",
+  "main": "./lib/jiratempo.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

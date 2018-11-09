@@ -1,4 +1,4 @@
-# Javascript Tempo-Timesheets API for node.js
+# Javascript Tempo Timesheets API for node.js
 
 A node.js module, which expands on the functionality of the [jira node.js module](https://github.com/steves/node-jira)
 to include interaction with the Tempo Timesheets Add-On for Jira.
@@ -17,12 +17,12 @@ jira = new JiraApi(protocol, host, port, username, password, apiVersion, verbose
 //
 JiraTempoApi = require('jiratempo').JiraTempoApi;
 jiratempo = new JiraTempoApi(jira, tempoApiVersion);
-````
+```
 
-Jira methods can be called on the JiraApi instance, Tempo-Timesheets methods are called on the JiraTempoApi instance:`
+Jira methods can be called on the JiraApi instance, Tempo Timesheets methods are called on the JiraTempoApi instance:
 
 ```
-jira.findIssue(issueNumber, function(error, issue) {});`
+jira.findIssue(issueNumber, function(error, issue) {});
 //
 jiratempo.getWorklogById(worklogId, function(error, worklog) {});
 ```

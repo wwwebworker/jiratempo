@@ -1,6 +1,6 @@
 {
   "name": "jiratempo",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Extension for jira node modules ('jira-connector' & 'jira') to include the tempo-timesheets add-on",
   "main": "./lib/jiratempo.js",
   "scripts": {
